@@ -1,0 +1,89 @@
+
+
+.rightNavigation{
+    width: 35%;
+    justify-content: flex-end;
+    color:gray;
+    a{
+        color:$colorMainText;
+    }
+    a:hover{
+        color:blue;
+
+    }
+    h2{
+        font-family: Consolas;   
+        font-size: 18px;     
+    }
+}
+.rightNav1{
+    width: 100%;
+    border:$bordeLigero;
+    background-color: whitesmoke;
+    border-radius: 7px;
+}
+.LinkContainer{
+    
+    padding: 16px 12px;
+    width: 100%;
+    border-bottom: $bordeLigero;
+
+    .discuss-link{
+        text-decoration: none;
+        font-weight: 600;
+
+    }
+    .linkPrimario{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        &:hover .linkTitle{
+            color:blue;
+        }
+        .linkTitle{
+            margin-bottom: 4px;
+            font-weight: 400;
+            color:$colorMainText
+        }
+        .linkSecundario{
+            color:$colorSecondaryText;
+            font-weight: 300;
+        }
+        .badge{
+            background-color:rgb(252,211,77);
+            color:rgb(120,53,15);
+            padding:4px;
+            width: 43px;
+            border-radius: 5px;
+            font-size: 13px;
+            text-align: center;
+        }
+    } 
+}
+
+.rightNav2{
+    .rightHeader2{
+        text-decoration: none;
+        font-weight: 500;
+        color:$colorMainText;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+
+    }
+    
+    .LinkContainer2{
+        padding: 16px 12px;
+        width: 100%;
+        &:hover{
+            background-color: whitesmoke;
+            color:blue;
+        }
+    }
+    .buttomRight{
+        font-weight: 400;
+        color:$colorMainText;
+        text-decoration: none;
+    }
+
+}
+
+ 
