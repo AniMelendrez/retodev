@@ -1,0 +1,133 @@
+
+/* .createButton {
+    display: flex;
+    position: fixed; 
+    top: 0;
+    background-color:whitesmoke;
+    border: 1px solid rgb(168, 161, 161);
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    .siteLogo{
+        width: 52px;
+        height: 52px;
+    }
+    .navLeft{
+        display:flex;
+        align-items: center;
+     /*  width: 50%;   
+        flex-direction: row;
+        justify-content: flex-start;
+        .searchBar{
+  /*          height: 50px; 
+            display:flex;
+            align-items: center;
+            width: 400px;
+            border: 1px solid rgb(168, 161, 161);
+    
+        }
+        .searchImage{
+            background-color: whitesmoke;
+            border: none;
+            height: 50px;
+            justify-content: end;
+        }
+    }
+    .navRight{
+        display: flex;
+        align-items:flex-end;
+/*      width: 50%; 
+        flex-direction: row;
+        justify-content: flex-end;
+       
+        .loginButton{
+            border:none;
+            color: rgb(64,64,64);
+             &:hover {
+                color:blue;
+            }
+        }
+        .createButton{
+            border-radius: 5px;
+            border-color: blue;
+            color:blue;
+            padding: 10px;
+        }
+    }
+    
+
+
+
+  }
+  */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.cimage{
+    margin: 10px 25px ;
+    width: 65px;
+    height: 50px;
+}
+
+.cinput{
+    padding: 10px;
+    width: 600px;
+    height: 45px;
+    border-radius: 7px;
+    border-color: rgba(128, 128, 128, 0.278);
+}
+
+.bx{
+    transform: translate(-28px);
+    cursor: pointer;
+}
+
+.alogin, .alogin2{
+    text-decoration: none;
+    padding: 14px;
+    margin: 5px;
+}
+
+.alogin2{
+    border: 1px solid rgba(0, 0, 255, 0.475);
+    padding: 13px 18px;
+    display: inline-block;
+    border-radius: 7px;
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.484);
+}
+
+.alogin:hover{
+    background-color: rgba(0, 0, 255, 0.114);
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.alogin2:hover{
+    background-color: rgba(0, 0, 255, 0.724);
+    text-decoration: underline;
+    color: white;
+}

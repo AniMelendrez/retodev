@@ -1,0 +1,53 @@
+.navSticky {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: whitesmoke;
+  border: 1px solid rgb(168, 161, 161);
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 70px;
+  width: 100%;
+}
+.navSticky .siteLogo {
+  width: 52px;
+  height: 52px;
+}
+.navSticky .navLeft {
+  height: 70px;
+  width: 50%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.navSticky .navLeft .searchBar {
+  height: 50px;
+  width: 400px;
+  border: 1px solid rgb(168, 161, 161);
+}
+.navSticky .navLeft .searchImage {
+  background-color: whitesmoke;
+  border: none;
+  height: 50px;
+  justify-content: end;
+}
+.navSticky .navRight {
+  height: 70px;
+  width: 50%;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navSticky .navRight .loginButton {
+  height: 85%;
+  border: none;
+  color: rgb(64, 64, 64);
+}
+.navSticky .navRight .loginButton:hover {
+  color: blue;
+}
+.navSticky .navRight .createButton {
+  height: 85%;
+  border-radius: 5px;
+  border-color: blue;
+  color: blue;
+  padding: 10px;
+}/*# sourceMappingURL=header.css.map */

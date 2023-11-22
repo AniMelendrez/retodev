@@ -1,9 +1,10 @@
 
 
 .rightNavigation{
-    width: 35%;
+    width: 20%;
     justify-content: flex-end;
     color:gray;
+    margin:25px;
     a{
         color:$colorMainText;
     }
@@ -19,7 +20,7 @@
 .rightNav1{
     width: 100%;
     border:$bordeLigero;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     border-radius: 7px;
 }
 .LinkContainer{
